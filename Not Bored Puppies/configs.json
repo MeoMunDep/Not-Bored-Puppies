@@ -1,0 +1,8 @@
+{
+  "limit": 100,
+  "countdown": 300,
+  "country_time": "en-US",
+  "ugradeRechargingSpeed": 1,
+  "upgradeMultiTap": 1,
+  "upgradeEnergyLimit": 1
+}
