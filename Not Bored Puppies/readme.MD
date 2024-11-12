@@ -6,7 +6,7 @@
 - Group: [Link](t.me/KeoAirDropFreeNe)
 - Channel: [Link](t.me/KeoAirDropFreeNee)
 
-> > > Help me with your referral [Link](https://t.me/NotBoredPuppies_bot?start=r_6713068747)
+> Help me with your referral [Link](https://t.me/NotBoredPuppies_bot?start=r_6713068747)
 
 ## 🚀 Getting Started
 
@@ -19,7 +19,7 @@ To get started with the bot, follow these steps:
 1. **Install Dependencies and Modules:**
 
    ```
-   npm i user-agents cloudscraper axios colors p-limit https-proxy-agent socks-proxy-agent
+   npm i user-agents axios colors p-limit https-proxy-agent socks-proxy-agent crypto ws uuid
    ```
 
 2. **Prepare Configuration Files:**
@@ -34,14 +34,15 @@ To get started with the bot, follow these steps:
 {
   "ugradeRechargingSpeed": 1,
   "upgradeMultiTap": 1,
-  "upgradeEnergyLimit": 1, //how many upgrade you want to
+  "upgradeEnergyLimit": 1,
+  "dailyCombo": [2, 3, 4], // daily combo, 0 to 11
   "limit": 5, //number of accounts run in a row
   "countdown": 300, //time to restarts all the accounts - count by seconds
   "country_time": "vi-VN" //timestamp base on the country
 }
 ```
 
-### 2. `datas.txt` 🗂️ -
+### 2. `datas.txt` 🗂️ - Get it from here >>> [Link](https://t.me/KeoAirDropFreeNe/257/6879)
 
 ```txt
 query_id.../user...
@@ -69,6 +70,6 @@ socks5://user:password@host:port
 💡 Usage:
 
 > You need to `cd` to the file after extract it
-> To run the bot, use the following command: `node 1`
+> To run the bot, use the following command: `node bot`
 
 🎇Enjoy!
