@@ -4,5 +4,6 @@
   "country_time": "en-US",
   "ugradeRechargingSpeed": 1,
   "upgradeMultiTap": 1,
-  "upgradeEnergyLimit": 1
+  "upgradeEnergyLimit": 1,
+  "dailyCombo": [0, 1, 2]
 }
