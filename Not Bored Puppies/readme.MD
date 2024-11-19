@@ -35,6 +35,7 @@ To get started with the bot, follow these steps:
   "ugradeRechargingSpeed": 1,
   "upgradeMultiTap": 1,
   "upgradeEnergyLimit": 1,
+  "isDoDailyCombo": false,
   "dailyCombo": [2, 3, 4], // daily combo, 0 to 11
   "limit": 5, //number of accounts run in a row
   "countdown": 300, //time to restarts all the accounts - count by seconds
