@@ -1,5 +1,8 @@
 📞 Contact
 
+> [Termux guides if you run on mobile](https://github.com/MeoMunDep/Guides-for-using-my-script-on-termux.)
+
+
 > If you encounter any issues or have questions, feel free to reach out:
 
 - Contact: [Link](t.me/MeoMunDep)
@@ -14,7 +17,14 @@ To get started with the bot, follow these steps:
 
 0. **Dowload NodeJS to run the bot**
 
--> [Link](https://t.me/KeoAirDropFreeNe/257/1462)
+Before running the bot, make sure you have the following installed:
+
+- **Node.js** (Version: `22.11.0`)
+- **npm** (Version: `10.9.0`)
+
+Download Node.js and npm here: [Download Link](https://t.me/KeoAirDropFreeNe/257/1462).
+
+-> Double click on `run.bat` for windows or `run.sh` for linux/mac if you want to run automatically, remember to fill all the necessary data.
 
 1. **Install Dependencies and Modules:**
 
@@ -32,14 +42,16 @@ To get started with the bot, follow these steps:
 
 ```json
 {
+  "limit": 100,
+  "countdown": 300,
+  "country_time": "en-US",
   "ugradeRechargingSpeed": 1,
   "upgradeMultiTap": 1,
   "upgradeEnergyLimit": 1,
-  "isDoDailyCombo": false,
-  "dailyCombo": [2, 3, 4], // daily combo, 0 to 11
-  "limit": 5, //number of accounts run in a row
-  "countdown": 300, //time to restarts all the accounts - count by seconds
-  "country_time": "vi-VN" //timestamp base on the country
+  "DoDailyCombo": true,
+  "dailyCombo": [0, 1, 2],
+  "doTasks": true,
+  "delayEachAccount": [1, 82]
 }
 ```
 
@@ -52,6 +64,9 @@ query_id.../user...
 ```
 
 ### 3. `wallets.txt` 💼 - Cannot update yet.
+
+- Wallets generator: [Link](https://github.com/MeoMunDep/Automatic-Ultimate-Create-Wallets-for-Airdrop)
+
 
 ```txt - wallet address
 abc...xyz
@@ -71,6 +86,6 @@ socks5://user:password@host:port
 💡 Usage:
 
 > You need to `cd` to the file after extract it
-> To run the bot, use the following command: `node bot`
+> To run the bot, use the following command: `cd "not-bored-puppies-main/not-bored-puppies"; node meomundep`
 
 🎇Enjoy!

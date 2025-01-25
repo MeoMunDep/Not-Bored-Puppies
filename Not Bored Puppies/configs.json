@@ -5,6 +5,8 @@
   "ugradeRechargingSpeed": 1,
   "upgradeMultiTap": 1,
   "upgradeEnergyLimit": 1,
-  "isDoDailyCombo": false,
-  "dailyCombo": [0, 1, 2]
+  "doDailyCombo": true,
+  "dailyCombo": [0, 1, 2],
+  "doTasks": true,
+  "delayEachAccount": [1, 82]
 }

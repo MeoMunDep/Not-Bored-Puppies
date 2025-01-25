@@ -30,16 +30,16 @@ fi
 create_default_configs() {
     cat > configs.json << EOL
 {
-    "timeZone": "en-US",
-    "rotateProxy": false,
-    "skipInvalidProxy": false,
-    "proxyRotationInterval": 2,
-    "delayEachAccount": [5, 8],
-    "timeToRestartAllAccounts": 300,
-    "howManyAccountsRunInOneTime": 10,
-    "doTasks": true,
-    "playGames": true,
-    "referralCode": ""
+  "limit": 100,
+  "countdown": 300,
+  "country_time": "en-US",
+  "ugradeRechargingSpeed": 1,
+  "upgradeMultiTap": 1,
+  "upgradeEnergyLimit": 1,
+  "DoDailyCombo": true,
+  "dailyCombo": [0, 1, 2],
+  "doTasks": true,
+  "delayEachAccount": [1, 82]
 }
 EOL
 }
@@ -55,7 +55,7 @@ check_configs() {
 while true; do
     clear
     echo "============================================================================"
-    echo "    name BOT SETUP AND RUN SCRIPT"
+    echo "    Not Bored Puppies BOT SETUP AND RUN SCRIPT by @MeoMunDep"
     echo "============================================================================"
     echo
     echo "Current directory: $(pwd)"
@@ -115,7 +115,7 @@ while true; do
             else
                 print_green "Using node_modules from current directory"
             fi
-            node bot
+            node meomundep
             read -p "Press Enter to continue..."
             ;;
         4)
